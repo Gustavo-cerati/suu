@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charly García</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        body {
+            width: 60%;
+            background-color: lightskyblue;
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 400px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border: solid 2px grey;
+            padding: 20px ;
+            display:grid;
+            grid-template-columns: 40% 60%;
+            grid-template-rows: auto;
+            grid-template-areas:
+            "nav nav"
+            "nito nito"
+            "nito1 nito1"
+            "texto1 texto2"
+            "mejores_trabajos opinion"
+            "tabla tabla"
+            ;
+
+         }
+        h1{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 12mm;
+        }
+        img{
+           width: 90%;
+           padding: 10px;         
+        }
+        p{
+            padding: 8px;
+        }
+       #Titulo{
+         grid-area: Titulo;
+          }
+        #nito{
+            grid-area: nito;
+        }
+        #nito1{
+            grid-area: nito1;
+        }
+        #texto2{
+            grid-area: texto2;
+        }
+        nav{
+        grid-area: nav;  
+        }
+        h2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #mejores_trabajos{
+            grid-area: mejores_trabajos;
+        }
+        #tabla{
+            grid-area: tabla;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" href="index.html">Sui <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="Charly Garcia.html">Charly</a>
+            <a class="nav-link" href="Nito Mestre.html">Nito</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </div>
+        </div>
+    </nav>
+    <img src="https://fotos.perfil.com/2020/05/09/charly-garcia-953623.jpg" alt="" id="nito">
+   <p id="nito1">
+    Carlos Alberto García, conocido por su nombre artístico Charly García es un cantautor, compositor, músico y productor argentino de rock.Con una vasta y reconocida carrera, formó y encabezó dos de las bandas más populares en la historia del rock argentino: 
+    Sui Géneris en la década de 1970 y Serú Girán en la década de 1980; además de la banda de rock progresivo La Máquina de Hacer Pájaros y el grupo de folk rock PorSuiGieco, ambas también en la década de 1970.8​ Desde la década de 1980, García ha trabajado principalmente como músico solista,
+     siendo sus instrumentos principales el piano, la guitarra y el teclado.​
+    Charly es ampliamente considerado por los críticos como uno de los artistas de rock más influyentes de América del Sur y, junto con Luis Alberto Spinetta y Gustavo Cerati como los pilares y más grandes referentes del rock argentino
+     uno de los fundadores de la discográfica independiente Mandioca. Mas información en <a href="https://es.wikipedia.org/wiki/Charly_Garc%C3%ADa">este link</a>
+   </p>
+   <h3 id="mejores_trabajos">Mejores Trabajos </h3>
+   <table class="table" id="tabla">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Canciones</th>
+        <th scope="col">Albumes</th>
+        <th scope="col">Bandas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Un hada, Un cisne</td>
+        <td>Confesiones de invierno</td>
+        <td>Sui generis</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>No bombardeen Buenos Aires</td>
+        <td>Vida</td>
+        <td>La maquina de hacer pájaros</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Bienvenidos al Tren</td>
+        <td>Peliculas</td>
+        <td>seru giran</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

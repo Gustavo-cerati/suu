@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nito Mestre</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body {
+            width: 60%;
+            background-color: lightskyblue;
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 400px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border: solid 2px grey;
+            padding: 20px ;
+            display:grid;
+            grid-template-columns: 40% 60%;
+            grid-template-rows: auto;
+            grid-template-areas:
+            "nav nav"
+            "nito nito"
+            "nito1 nito1"
+            "texto1 texto2"
+            ;
+
+         }
+        h1{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 12mm;
+        }
+        img{
+           width: 100%;
+           padding: 10px;         
+        }
+        p{
+            padding: 8px;
+        }
+       #Titulo{
+         grid-area: Titulo;
+          }
+        #nito{
+            grid-area: nito;
+        }
+        #nito1{
+            grid-area: nito1;
+        }
+        #texto2{
+            grid-area: texto2;
+        }
+        nav{
+        grid-area: nav;  
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" href="index.html">Sui <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="Charly Garcia.html">Charly</a>
+            <a class="nav-link" href="Nito Mestre.html">Nito</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </div>
+        </div>
+    </nav>
+    <img src="https://www.eluniverso.com/sites/default/files/styles/powgallery_1024/public/fotos/2020/05/-_nito_mestre_35999357.jpg?itok=UBNljQGa" alt="" id="nito">
+   <p id="nito1">
+    Carlos Alberto Nito Mestre es un músico argentino,
+     conocido por ser la voz principal y guitarrista del famoso dúo Sui Generis, junto a Charly García.
+      A mediados de los años sesenta mientras cursaba sus estudios secundarios en el Instituto Social Militar Dr. Dámaso Centeno (ubicado en la ciudad de Buenos Aires) conoció al músico Charly García,
+     y al principio ninguna empresa discográfica se interesó por el grupo, hasta que en 1972 Pierre les presentó al productor Jorge Álvarez,
+     uno de los fundadores de la discográfica independiente Mandioca. Mas informacion en <a href="https://es.wikipedia.org/wiki/Nito_Mestre">este link</a>
+   </p>
+</body>
+</html>

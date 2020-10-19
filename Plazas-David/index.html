@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Sui Generis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body {
+            width: 60%;
+            background-color: lightskyblue;
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 400px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border: solid 2px grey;
+            padding: 20px ;
+            display:grid;
+            grid-template-columns: 40% 60%;
+            grid-template-rows: auto;
+            grid-template-areas:
+            "nav nav"
+            "Titulo Titulo"
+            "texto1 imagen1"
+            "texto1 texto2"
+            ;
+
+         }
+        h1{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 12mm;
+        }
+        img{
+           width: 100%;
+           padding: 20px;         
+        }
+        p{
+            padding: 8px;
+        }
+       #Titulo{
+         grid-area: Titulo;
+         padding: 5px;
+         
+          }
+        #imagen1{
+            grid-area: imagen1;
+        }
+        #texto1{
+            grid-area: texto1;
+        }
+        #texto2{
+            grid-area: texto2;
+        }
+        nav{
+        grid-area: nav;  
+        }
+   
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" href="index.html">Sui <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="Charly Garcia.html">Charly</a>
+            <a class="nav-link" href="Nito Mestre.html">Nito</a>
+           
+            </div>
+        </div>
+    </nav>
+   <h1 id="Titulo">Sui Generis</h1>
+   <img src="https://s3-us-west-1.amazonaws.com/peermusic-web-content/images/Lg/e50eea94-6b71-47a2-b1fc-80206dd088c8.jpg" alt="" id="imagen1">
+  <div id="texto1">
+    <p>
+        Sui Generis (del latín "único en su tipo") fue un dúo argentino de rock formado por 
+        <a href="Charly Garcia.html">Charly García</a>  (piano, guitarra acústica y voz) y <a href="Nito Mestre.html"> Nito Mestre</a> (flauta, guitarra acústica y voz) en 1969.
+         Mientras cursaba la escuela secundaria en el Instituto Social Militar Doctor Dámaso Centeno,
+         Charly García conoció a Carlos Alberto Mestre, «Nito». El dúo junto a Carlos Piégari, Beto Rodríguez, Juan Belia y Alejandro Correa formó Sui Generis.
+         Sin embargo, tras sufrir varias deserciones en vísperas de una actuación importante, el grupo quedó convertido en dúo.
+          La fama y popularidad alcanzada por Sui Generis durante la primera mitad de la década de 1970, lo consolidó como uno de los grupos más importantes en la historia del rock argentino.
+       </p>
+  </div>
+   <p id="texto2">
+       En sus orígenes la banda tenía un estilo eléctrico y psicodélico inspirado en Vanilla Fudge y Procol Harum, dos grupos que García admiraba. La formación de Sui Generis en el período anterior al álbum Vida tuvo variantes. 
+       La primera más o menos estable incluía a Charly en teclados y voz, Nito en flauta y voz, Juan Belia en guitarra, Rolando Fortich en bajo y Alberto Rodríguez en batería.
+    </p>
+</body>
+</html>
