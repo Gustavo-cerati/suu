@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        body{
+            /*Body contenedor de la rejilla*/
+            display:grid;
+            grid-template-columns: 33% 67%;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "imagen1 imagen1"
+            "texto imagen2"
+            "texto tabla"
+            "texto2 texto2";
+        }
+        /*ya de aqui es poner elementos con los id anteriores (imgen1,texto, etc...)*/
+    </style>
+</head>
+<body>
+       <p>Este es el primer texto</p>
+       <img src="" alt="">
+</body>
+</html>
