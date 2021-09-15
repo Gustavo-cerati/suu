@@ -18,7 +18,7 @@ let y = 0;
 let r = 20;
 let color = "red";
 
-let vY = 10;// en px/s
+let vY = 30;// en px/s
 let vX = 0
 let dT = 30;
 
@@ -48,7 +48,7 @@ function arrancarOParar(){
     
     }
     else{
-        vY = 10;
+        vY = 30;
     }
 }
 function masradio() {
@@ -88,9 +88,9 @@ window.onclick = function(event){
    } 
    else{
    if (vX == 0) {
-    vX = 10  
+    vX = 120  
    } else {
-    vX= 0   
+    vX= 0  
    }
    console.log (vY)
    }
@@ -100,3 +100,6 @@ window.onclick = function(event){
     // Cambiar su color a uno aleatorio.
     
 }
+let texto = document.querySelector ('#texto')
+let puntaje = 2
+texto.innerHTML = puntaje
